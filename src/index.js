@@ -4,9 +4,9 @@ import { createMimeMessage } from "mimetext";
 export default {
     async scheduled(event, env) {
         const { API_TOKEN, SEND_EMAIL } = env;
-        const SENDER_EMAIL = "admin@zxc.co.in";
-        const RECIPIENT_EMAIL = "ajays@cloudflare.com";
-        const ACCOUNT_TAG = "174f936387e2cf4c433752dc46ba6bb1";
+        const SENDER_EMAIL = "socc@@example.com";
+        const RECIPIENT_EMAIL = "alerts@example.com";
+        const ACCOUNT_TAG = "xx";
         const DATE_24H_AGO = new Date(new Date() - 24 * 60 * 60 * 1000).toISOString();
 
         // Define GraphQL queries
