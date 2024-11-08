@@ -1,4 +1,4 @@
-- This worker allows you to send daily or weekly reports to your email (update cron and graphql filter accordingly)
+- This worker allows you to send daily or weekly reports for Cloudflare Zero trust Secure Web Gateway || DNS Gateway to your email (update cron and graphql filter accordingly)
 - It uses email worker, cron , email routing and graphql api
 - This is just a template, you can add any dimensions available in graphql firewallEventsAdaptiveGroups based on customer requirement.
 - Email routing will work only on full setup. You can create a subdomain zone (LTZ) as workaround.
